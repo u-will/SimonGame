@@ -1,0 +1,71 @@
+body {
+  background-color: #01203F;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  padding: 5% 15%;
+}
+
+h1 {
+  color: #FFF1BF;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.game-over {
+  background-color: red;
+}
+
+#boxes {
+  margin: 9% auto;
+  width: 500px;
+  height: 500px;
+  display: grid;
+  grid-template-columns: 220px 220px;
+  grid-row: auto auto;
+  grid-column-gap: 80px;
+  grid-row-gap: 80px;
+}
+
+.box {
+  border-radius: 20%;
+  border: 10px solid black;
+}
+
+#box-1 {
+  background-color: green;
+}
+
+#box-2 {
+  background-color: red;
+}
+
+#box-3 {
+  background-color: yellow;
+}
+
+#box-4 {
+  background-color: blue;
+}
+
+.test {
+  opacity: 0.3;
+}
+
+.answer {
+  background-color: grey !important;
+  box-shadow: 0 0 30px white;
+}
+
+
+@media(max-width: 1090px) {
+  .boxes {
+      display: block;
+      text-align: center;
+  }
+  .box {
+      width: 200px;
+      height: 200px;
+      margin: 40px auto;
+  }
+}
+

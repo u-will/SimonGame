@@ -26,9 +26,10 @@ h1 {
   grid-row-gap: 80px;
 }
 
-.box {
+.box, .box:focus {
   border-radius: 20%;
   border: 10px solid black;
+  outline: 0;
 }
 
 #box-1 {
